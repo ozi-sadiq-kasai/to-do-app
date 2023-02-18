@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body{
+  background: #c2c5aa;
+}
+
+.container{
+  width: 70%;
+  height: 90vh;
+  margin: 30px auto;
+  background: #f5f1ed;
+  border: 1px #c2c5aa solid;
+  border-radius: 5px;
+  border:  red 1px solid;
+}
+
+#header,#sub-title{
+  width: 70%;
+  margin: 15px auto;
+  border: 1px solid #c2c5aa;
+  padding: 10px;
+  text-align: center;
+  
+}
+
+.input{
+  width:100%;
+  margin:   70px auto;
+  text-align: center;
+ 
+}
+
+input[type=text]{
+background:#dee2e6;
+width: 50%;
+padding: 8px;
+border: none;
+
+}
+#submit-btn{
+  padding: 8px 15px;
+  background: #f26419;
+  border: none;
+  border-radius: 5px;
+  color: #dee2e6;
+}
+
+#duties{
+  padding:10px;
+  width: 70%;
+  margin: 10px auto;
+}
+
+.del-button{
+  float: right;
+  margin-bottom: 8px;
+  padding: 3px;
+  background: #dee2e6;
+  border-color: #f26419;
+}
+
